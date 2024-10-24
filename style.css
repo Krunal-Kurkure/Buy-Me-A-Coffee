@@ -187,7 +187,7 @@ font-family: "Gemunu Libre", sans-serif;
   border: none;
   height: 35px;
 }
-@media (max-width: 390px) {
+@media (max-width: 430px) {
   .againmain {
     width: 90%;
     margin-top: 20px;
