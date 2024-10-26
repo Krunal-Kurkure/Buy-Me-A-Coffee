@@ -80,12 +80,13 @@
   margin: 0px 20px 0px 0px;
   display: flex;
   width: 95%;
+  gap: 20px;
   justify-content: space-between;
 }
 .buttonss a{
   width: 48%; 
 }
-.buttonss a button{
+.buttonss button{
   width: 100%;
   font-size: 18px;
   font-weight: 900;
@@ -93,6 +94,7 @@
   height: 50px;
   color: rgb(0, 72, 255);
   transition: 0.3s;
+
   border-radius: 10px;
   border: 2px solid rgb(0, 72, 255);
 }
@@ -191,6 +193,77 @@ font-family: "Gemunu Libre", sans-serif;
   border-radius: 10px;
   border: 2px solid black;
   height: 35px;
+}
+@media (max-height: 800px){
+  .left{
+    width: min-content;
+  }
+  .left img{
+    width: 70%;
+  }
+  .left h4{
+    font-size: 18px;
+
+    width: 300px;
+  }
+  .left p{
+    font-size: 14px;
+    width: fit-content;
+  }
+  .left ul li{
+    font-size: 12px;
+    width: fit-content;
+
+  }
+  .left ul{
+    width: fit-content;
+  }
+  .left ol{
+    width: fit-content;
+  }
+  #p1{
+   
+    width: fit-content;
+     font-size: 14px;
+  }
+  .left ol li{
+    font-size: 12px;
+    width: fit-content;
+  }
+  #p2{
+    font-size: 14px;
+  }
+  #p3{
+    font-size: 12px;
+  }
+  .right{
+    width: max-content;
+  }
+  .buttonss button{
+    height: 35px;
+  }
+  #b1{
+    height: 35px;
+  }
+  .half2 h1{
+    font-size: 12px;
+  }
+  .half2 h2{
+    font-size: 12px;
+  }
+  .half2 h3{
+    font-size: 12px;
+  }
+  .half2 h4{
+    font-size: 12px;
+  }
+  #name, #email, #mobile, #message {
+    height: 28px;
+  }
+  .half2 button{
+    height: 28px;
+    font-size: 14px;
+  }
 }
 @media (max-width: 430px) {
   .againmain {
